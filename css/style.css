@@ -1,0 +1,19 @@
+/*body*/
+body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正黑體", Arial;}
+
+/*aHeader*/
+.aHeader{background-color: #ffc200;max-height: 100px;padding-left: 40px}
+.img-profilo{display: inline-block;width: 125px;height: 125px;border-radius: 50%;margin-top:-12.5px;}
+.h1-tit{display: inline-block;vertical-align: top;margin:-5px 0 0 0;font-size:50px; font-weight: bold;}
+.h1-tit span{display: block;font-size: 30px;font-weight: bold; margin:-15px 0 0 -3px;}
+.h6-desc{margin: -35px 0 0 127px;letter-spacing:1px;}
+.bProfile{display: inline-block;vertical-align:top;}
+.bInfo{display: inline-block;vertical-align: middle;float: right;width:55%;}
+.bInfo ul{list-style-type: none;padding: 0;}
+.li-info{display: inline-block;margin: 6px 20px;width:40%;}
+.li-info:before {display: inline-block;content:"";background-color: black;width: 20px;height: 20px;border-radius: 50%}
+.li-info a{vertical-align: top;margin-left: 3px;}
+
+/*aMainer*/
+.img-cont{display: inline-block;width: 30px;height: 30px;vertical-align: middle;}
+.h4-stit{display: inline-block;vertical-align: middle;}
