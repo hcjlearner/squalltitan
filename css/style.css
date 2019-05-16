@@ -3,11 +3,12 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 
 /*aHeader*/
 .aHeader{background-color: #ffc200;max-height: 100px;padding-left: 40px}
-.img-profilo{display: inline-block;width: 125px;height: 125px;border-radius: 50%;margin-top:-12.5px;}
+.aHeader:before{display: inline-block;content: "";height: 100px;width: 100px;background-color: white;}
+.img-profilo{display: inline-block;width: 124px;height: 124px;border-radius: 50%;margin-top:-14.5px;border-width:2px; border-style:solid;}
 .h1-tit{display: inline-block;vertical-align: top;margin:-5px 0 0 0;font-size:50px; font-weight: bold;}
 .h1-tit span{display: block;font-size: 30px;font-weight: bold; margin:-15px 0 0 -3px;}
-.h6-desc{margin: -35px 0 0 127px;letter-spacing:1px;}
-.bProfile{display: inline-block;vertical-align:top;}
+.h6-desc{margin: -35px 0 0 127px;letter-spacing:1.3px;}
+.bProfile{display: inline-block;vertical-align:top;margin-left: -80px;}
 .bInfo{display: inline-block;vertical-align: middle;float: right;width:55%;}
 .bInfo ul{list-style-type: none;padding: 0;}
 .li-info{display: inline-block;margin: 6px 20px;width:40%;}
@@ -15,5 +16,20 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 .li-info a{vertical-align: top;margin-left: 3px;}
 
 /*aMainer*/
-.img-cont{display: inline-block;width: 30px;height: 30px;vertical-align: middle;}
-.h4-stit{display: inline-block;vertical-align: middle;}
+.aMainer{margin-top: 25px}
+.img-cont{display: inline-block;width: 40px;height: 40px;margin-top: -5px;margin-left:-20px;border-radius: 50%;border-width:0.1px; border-style:solid;}
+.h4-stit{display: inline-block;vertical-align: top;margin:5px auto auto 25px;font-weight: bold;letter-spacing: 5px}
+.c-head{background-color: #ffc200;max-height: 30px;margin-left: 20px;}
+.bContent{display: inline-block;width: 37%;vertical-align:top;margin-left: 50px;}
+.bContent:nth-child(even){width: 53.5%;}
+.bContent:nth-child(even) .c-desc .d-space{width: 90%;}
+.c-desc{margin:30px auto;line-height: 25px}
+.d-space{margin-bottom: 40px}
+.d-space h1,h2,h3,h4{margin:0px;}
+.d-space h1{display: inline-block;vertical-align:top;font-size: 16px;}
+.d-space h2{display: inline-block;vertical-align:top;font-size: 12px;color: #AAAAAA;margin-left: 220px}
+.d-space h3{font-size: 14px;}
+.d-space h4{font-size: 10px;color: #AAAAAA}
+.bContent:nth-child(4) .d-space h2{display: inline-block;vertical-align:top;font-size: 12px;color: #AAAAAA;margin-left: 200px}
+.bContent:nth-child(3) {margin-top:-30px;}
+.bContent:nth-child(5) {margin-top:-220px;}
