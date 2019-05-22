@@ -13,7 +13,7 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 .bInfo ul{list-style-type: none;padding: 0;}
 .li-info{display: inline-block;margin: 6px 20px;width:40%;}
 .li-info:before {display: inline-block;content:"";background-color: black;width: 20px;height: 20px;border-radius: 50%}
-.li-info a{vertical-align: top;margin-left: 3px;}
+.li-info a{vertical-align: top;margin-left: 3px;text-decoration:none;}
 
 /*aMainer*/
 .aMainer{margin-top: 25px}
@@ -29,7 +29,19 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 .d-space h1{display: inline-block;vertical-align:top;font-size: 16px;}
 .d-space h2{display: inline-block;vertical-align:top;font-size: 12px;color: #AAAAAA;margin-left: 220px}
 .d-space h3{font-size: 14px;}
-.d-space h4{font-size: 10px;color: #AAAAAA}
+.d-space h4{font-size: 12px;color: #AAAAAA;word-spacing:3px;}
 .bContent:nth-child(4) .d-space h2{display: inline-block;vertical-align:top;font-size: 12px;color: #AAAAAA;margin-left: 200px}
 .bContent:nth-child(3) {margin-top:-30px;}
 .bContent:nth-child(5) {margin-top:-220px;}
+
+/*.aFooter*/
+.aFooter{background-color: black;padding-top: 60px;}
+.aFooter .bContent-1 .c-head:before{display: inline-block; content:"" ;background-color: #ffc200;height: 30px;width: 25px;margin-left: -70px;vertical-align: top;}
+.aFooter .bContent-1 .c-head .img-cont{margin-left: 20px;}
+.aFooter .bContent-1 .c-desc{margin-left: 20px;}
+.aFooter .bContent-1 .c-desc h1,h2,h3{margin:0px;}
+.aFooter .bContent-1 .c-desc h1{font-size: 16px;letter-spacing: 1.8px;color:white;}
+.aFooter .bContent-1 .c-desc h2{font-size: 14px;margin-top:-5px;color:white;}
+.aFooter .bContent-1 .c-desc h3{font-size: 12px;color: #AAAAAA;margin: 10px auto;word-spacing:3px;}
+.aFooter .bContent-2 .c-desc .d-space{display:inline-block;width: 40%;margin-right:40px;margin-left:10px;color:white;}
+.aFooter .bContent-2 .c-desc .d-space span{display:block;font-size: 12px;color: #AAAAAA;margin: 10px auto;word-spacing:3px;}
