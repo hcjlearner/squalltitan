@@ -45,3 +45,20 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 .aFooter .bContent-1 .c-desc h3{font-size: 12px;color: #AAAAAA;margin: 10px auto;word-spacing:3px;}
 .aFooter .bContent-2 .c-desc .d-space{display:inline-block;width: 40%;margin-right:40px;margin-left:10px;color:white;}
 .aFooter .bContent-2 .c-desc .d-space span{display:block;font-size: 12px;color: #AAAAAA;margin: 10px auto;word-spacing:3px;}
+
+/*.aExtender*/
+.ul-profile-show{list-style-type: none;padding: 0;position: relative;width: 1100px;height: 496px;}
+.ul-profile-show:hover>.li-profile-show {opacity:0.4;filter:alpha(opacity=40);}
+.ul-profile-show:hover>.li-profile-show:hover {opacity:1;filter:alpha(opacity=100);}
+.li-profile-show{position: absolute;}
+.li-profile-show01{left: 95px;}
+.li-profile-show02{left: 95px;top: 105px;}
+.li-profile-show03{left: 400px;top: 105px;}
+.li-profile-show04{left: 705px;top: 105px;}
+.li-profile-show05{left: 95px;top: 410px;}
+.li-profile-show06{left: 400px;top: 410px;}
+.li-profile-show07{left: 705px;top: 410px;}
+.li-profile-show08{left: 95px;top: 715px;}
+.li-profile-show09{left: 400px;top: 715px;}
+.li-profile-show10{left: 705px;top: 715px;}
+
