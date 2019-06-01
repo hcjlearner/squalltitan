@@ -50,21 +50,19 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 /*.aExtender*/
 .ul-profile-show{list-style-type: none;padding: 0;position: relative;width: 1100px;height: 496px;}
 .ul-profile-show:hover>.li-profile-show {opacity:0.4;filter:alpha(opacity=40);}
-.ul-profile-show:hover>.li-profile-show01:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/DdU93qk.jpg')}
-.ul-profile-show:hover>.li-profile-show02:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/cHSV2Vs.jpg')}
-.ul-profile-show:hover>.li-profile-show03:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/cIdH9Yk.jpg')}
-.ul-profile-show:hover>.li-profile-show04:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/Hma2lwI.jpg')}
-.ul-profile-show:hover>.li-profile-show05:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/KY4tB9w.jpg')}
-.ul-profile-show:hover>.li-profile-show06:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/z5SUMDj.jpg')}
-.ul-profile-show:hover>.li-profile-show07:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/dm3iL8A.jpg')}
-.ul-profile-show:hover>.li-profile-show08:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/o3hv6pa.jpg')}
-.ul-profile-show:hover>.li-profile-show09:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/2hUM5gv.jpg')}
-.ul-profile-show:hover>.li-profile-show10:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://i.imgur.com/YDiNl2C.jpg')}
-.ul-profile-show:hover>.li-profile-show11:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://driver.cool3c.com/files/32/20130122052428.png')}
-.ul-profile-show:hover>.li-profile-show12:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://stickershop.line-scdn.net/stickershop/v1/sticker/12894422/android/sticker.png')}
-.ul-profile-show:hover>.li-profile-show13:hover {opacity:1;filter:alpha(opacity=100);background-image:url('https://pic.pimg.tw/lailion/1367919378-1790696141.jpg')}
+.ul-profile-show:hover>.li-profile-show02:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show03:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show04:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show05:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show06:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show07:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show08:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show09:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show10:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show11:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show12:hover {opacity:1;filter:alpha(opacity=100);}
+.ul-profile-show:hover>.li-profile-show13:hover {opacity:1;filter:alpha(opacity=100);}
 .li-profile-show{position: absolute;transition: all 0.3s linear;background: no-repeat;}
-.li-profile-show01{left: 95px;background-image:url('https://i.imgur.com/fqPIUlq.jpg');width: 910px; height: 100px;background-size: 910px 100px;}
 .li-profile-show02{left: 95px;top: 105px;background-image:url('https://i.imgur.com/vpe0qr3.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
 .li-profile-show03{left: 400px;top: 105px;background-image:url('https://i.imgur.com/ZhvmeTG.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
 .li-profile-show04{left: 705px;top: 105px;background-image:url('https://i.imgur.com/X7B3qzi.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
@@ -74,6 +72,3 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 .li-profile-show08{left: 95px;top: 715px;background-image:url('https://i.imgur.com/5KYv6AR.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
 .li-profile-show09{left: 400px;top: 715px;background-image:url('https://i.imgur.com/s6ttPVp.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
 .li-profile-show10{left: 705px;top: 715px;background-image:url('https://i.imgur.com/1JsYpLs.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
-.li-profile-show11{left: 95px;top: 1070px;background-image:url('https://i.imgur.com/3Ok1ptv.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
-.li-profile-show12{left: 400px;top: 1070px;background-image:url('https://i.imgur.com/sIUT4c9.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
-.li-profile-show13{left: 705px;top: 1070px;background-image:url('https://i.imgur.com/HkrXqrY.jpg');width: 300px; height: 300px;background-size: 300px 300px;}
