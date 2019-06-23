@@ -1,0 +1,19 @@
+body {font-family: "Helvetica Neue", Arial;}
+
+/*.aHeader*/
+.aHeader{height: 84px; background-color: white; position: relative;}
+
+/*.bLogo*/
+.bLogo {display:inline-block; vertical-align: top;}
+.Ink-logo{text-decoration: none; color: #007bff; letter-spacing: 4px;  font-size: 20px;  line-height: 62px; margin:26px;}
+
+/*.bNav*/
+.bNav {display:inline-block; vertical-align: top;margin-left: 40px;}
+.bNav .ul-nav {list-style-type: none; padding: 0px; margin:0px;}
+.bNav .ul-nav .li-nav .ul-subNav {list-style-type: none; padding: 0px;}
+.bNav .ul-nav .li-nav{display: inline-block; vertical-align: top;margin:0px 8px;}
+.bNav .ul-nav .li-nav .Ink-nav {color: #555; line-height: 62px; font-size: 17px; letter-spacing: 1px; text-decoration: none;}
+.bNav .ul-nav .li-nav .ul-subNav .lu-subNav a {color: #555; text-decoration: none;}
+
+/*.bSearch*/
+.bSearch {display:inline-block; vertical-align: top; position: absolute; right: 0px; top: 10px;}
