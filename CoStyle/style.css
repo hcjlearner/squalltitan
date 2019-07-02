@@ -1,19 +1,25 @@
 body {font-family: "Helvetica Neue", Arial;}
+a { display: inline-block;vertical-align: top;}
 
 /*.aHeader*/
 .aHeader{height: 84px; background-color: white; position: relative;}
 
 /*.bLogo*/
 .aHeader .bLogo {display:inline-block; vertical-align: top;}
-.aHeader .Ink-logo{text-decoration: none; color: #007bff; letter-spacing: 4px;  font-size: 20px;  line-height: 62px; margin:26px;}
+.aHeader .Ink-logo{text-decoration: none; color: #007bff; letter-spacing: 4px;  font-size: 20px;  line-height: 53px; margin:0px 16px; padding: 5px 10px;}
 
 /*.bNav*/
 .aHeader .bNav {display:inline-block; vertical-align: top;margin-left: 40px;}
-.aHeader .bNav .ul-nav {list-style-type: none; padding: 0px; margin:0px;}
-.aHeader .bNav .ul-nav .li-nav .ul-subNav {list-style-type: none; padding: 0px; /*display: none;*/}
-.aHeader .bNav .ul-nav .li-nav{display: inline-block; vertical-align: top;margin:0px 8px;}
-.aHeader .bNav .ul-nav .li-nav .Ink-nav {color: #555; line-height: 62px; font-size: 17px; letter-spacing: 1px; text-decoration: none;}
-.aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav .Ink-subNav {color: #555; text-decoration: none; font-size: 14px;line-height: 30px;}
+.aHeader .bNav .ul-nav {list-style-type: none; padding: 0px; margin:16px auto;}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav {list-style-type: none; padding: 0px; display: none;}
+.aHeader .bNav .ul-nav .li-nav{display: inline-block; vertical-align: top;}
+.aHeader .bNav .ul-nav .li-nav .Ink-nav {color: #555; line-height: 30px; font-size: 17px; letter-spacing: 1px; text-decoration: none; padding: 0 8px}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav .Ink-subNav {color: #555; text-decoration: none; font-size: 14px;line-height: 30px; padding-left: 15px; display: inline-block;}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav:hover {background-color: #007bff;}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav:hover .Ink-subNav {color:white;}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav {-webkit-box-shadow: 0px 0px 30px 0px #DDDDDD; box-shadow: 0px 0px 30px 0px #DDDDDD; border-radius: 10px; padding:5px 0px;}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav:before { display: block; content: ""; width: 0; height: 0; border-style: solid; border-width: 0 7px 10px 7px; border-color: transparent transparent #ffffff transparent; position: relative; top: -15px; left: 19px;}
+.aHeader .bNav .ul-nav .li-nav.active .ul-subNav { display: block;}
 
 /*.bSearch*/
 .aHeader .bSearch { position: absolute; right: 45px; top: 0px;}
