@@ -17,7 +17,7 @@ a { display: inline-block;vertical-align: top;}
 .aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav .Ink-subNav {color: #555; text-decoration: none; font-size: 14px;line-height: 30px; padding-left: 15px; display: inline-block;}
 .aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav:hover {background-color: #007bff;}
 .aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav:hover .Ink-subNav {color:white;}
-.aHeader .bNav .ul-nav .li-nav .ul-subNav {-webkit-box-shadow: 0px 0px 30px 0px #DDDDDD; box-shadow: 0px 0px 30px 0px #DDDDDD; border-radius: 10px; padding:5px 0px;}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav {-webkit-box-shadow: 0px 0px 30px 0px #DDDDDD; box-shadow: 0px 0px 30px 0px #DDDDDD; border-radius: 10px; padding:0px 0px 10px 0px; background-color: white;}
 .aHeader .bNav .ul-nav .li-nav .ul-subNav:before { display: block; content: ""; width: 0; height: 0; border-style: solid; border-width: 0 7px 10px 7px; border-color: transparent transparent #ffffff transparent; position: relative; top: -15px; left: 19px;}
 .aHeader .bNav .ul-nav .li-nav.active .ul-subNav { display: block;}
 
@@ -25,6 +25,16 @@ a { display: inline-block;vertical-align: top;}
 .aHeader .bSearch { position: absolute; right: 45px; top: 0px;}
 .aHeader .bSearch .ipt-search{border-top-style: none; border-left-style: none; border-right-style: none; height: 44px;  outline: none; background-image: url(imgs/search.png); background-size: 18px; background-repeat: no-repeat; background-position: left; padding-left: 30px;}
 
+/*.aBanner*/
+.aBanner{background:url(imgs/dog3.jpg) no-repeat; background-size: 100%; width:100%;height: 700px;}
 
+/*.bTits*/
+.aBanner .bTits{text-align: center;padding-top: 100px;}
+.aBanner .bTits .h1-tit{margin: 0px; font-size:80px; color:#AAAAAA;}
 
+/*.bVideo*/
+.aBanner .bVideo {text-align: center;}
+.aBanner .bVideo .lnk-video {text-decoration:none; color:#AAAAAA;}
+.aBanner .bVideo span {display: block; color:#AAAAAA;}
 
+700px
