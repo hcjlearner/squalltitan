@@ -18,7 +18,7 @@ a { display: inline-block;vertical-align: top;}
 .aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav:hover {background-color: #007bff;}
 .aHeader .bNav .ul-nav .li-nav .ul-subNav .li-subNav:hover .Ink-subNav {color:white;}
 .aHeader .bNav .ul-nav .li-nav .ul-subNav {-webkit-box-shadow: 0px 0px 30px 0px #DDDDDD; box-shadow: 0px 0px 30px 0px #DDDDDD; border-radius: 10px; padding:0px 0px 10px 0px; background-color: white;}
-.aHeader .bNav .ul-nav .li-nav .ul-subNav:before { display: block; content: ""; width: 0; height: 0; border-style: solid; border-width: 0 7px 10px 7px; border-color: transparent transparent #ffffff transparent; position: relative; top: -15px; left: 19px;}
+.aHeader .bNav .ul-nav .li-nav .ul-subNav:before { display: block; content: ""; width: 0; height: 0; border-style: solid; border-width: 0 7px 10px 7px; border-color: transparent transparent #ffffff transparent; position: relative; top: -10px; left: 19px;}
 .aHeader .bNav .ul-nav .li-nav.active .ul-subNav { display: block;}
 
 /*.bSearch*/
@@ -26,15 +26,21 @@ a { display: inline-block;vertical-align: top;}
 .aHeader .bSearch .ipt-search{border-top-style: none; border-left-style: none; border-right-style: none; height: 44px;  outline: none; background-image: url(imgs/search.png); background-size: 18px; background-repeat: no-repeat; background-position: left; padding-left: 30px;}
 
 /*.aBanner*/
-.aBanner{background:url(imgs/dog3.jpg) no-repeat; background-size: 100%; width:100%;height: 700px;}
+.aBanner{background:url(imgs/dog3.jpg) no-repeat; background-size: 100%; width:100%;height: 700px;text-align: center;}
 
 /*.bTits*/
-.aBanner .bTits{text-align: center;padding-top: 100px;}
+.aBanner .bTits{text-align: center;padding-top: 150px;}
 .aBanner .bTits .h1-tit{margin: 0px; font-size:80px; color:#AAAAAA;}
 
 /*.bVideo*/
-.aBanner .bVideo {text-align: center;}
-.aBanner .bVideo .lnk-video {text-decoration:none; color:#AAAAAA;}
-.aBanner .bVideo span {display: block; color:#AAAAAA;}
+.aBanner .bVideo {margin: 40px auto 0; height: 80px; }
+.aBanner .bVideo .lnk-video {text-decoration:none; color:#AAAAAA; display: inline-block; background-color: white; width: 60px; height: 60px; border-radius: 50%; line-height: 60px; transition: all 0.2s ease;}
+.aBanner .bVideo .lnk-video:hover {width: 80px; height: 80px; line-height: 80px;margin-top: -10px;transition: all 0.2s ease;}
+.aBanner  span {display: block; color:#FFFFFF; margin-top: 40px;}
 
-700px
+/*.aMainer*/
+.aMainer {}
+.aMainer .ul-nav {list-style-type:none; padding: 0px;text-align: center;}
+.aMainer .ul-nav .li-nav {display: inline-block; width: 180px;margin:auto 30px;}
+.aMainer .ul-nav .li-nav .h6-tits {font-size:20px;margin-bottom: 10px;}
+.aMainer .ul-nav .li-nav .p-desc {line-height: 25px;color: #555;}
