@@ -39,8 +39,10 @@ a { display: inline-block;vertical-align: top;}
 .aBanner  span {display: block; color:#FFFFFF; margin-top: 40px;}
 
 /*.aMainer*/
-.aMainer {}
+.aMainer {padding-top: 80px;}
 .aMainer .ul-nav {list-style-type:none; padding: 0px;text-align: center;}
 .aMainer .ul-nav .li-nav {display: inline-block; width: 180px;margin:auto 30px;}
 .aMainer .ul-nav .li-nav .h6-tits {font-size:20px;margin-bottom: 10px;}
 .aMainer .ul-nav .li-nav .p-desc {line-height: 25px;color: #555;}
+.aMainer .ul-nav .li-nav .cube-square {display:inline-block; border:3px solid #007bff; border-radius: 10px;width: 100px; height: 100px; margin:auto; transform:rotate(45deg);}
+.aMainer .ul-nav .li-nav .cube-square .square{background: url(imgs/dog_small.jpeg) center no-repeat; vertical-align:top; display:inline-block; width: 70px; height: 70px; padding: 5px; transform:rotate(-45deg);margin-left: -10px;}
